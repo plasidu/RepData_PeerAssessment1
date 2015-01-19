@@ -22,8 +22,6 @@ hist(with(data, tapply(steps, date, FUN=sum)))
 ```
 
 ![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2-1.png) 
-### FIX: labels
-
 Mean of sums of steps taken per day 
 
 ```r
@@ -86,8 +84,6 @@ hist(with(datb, tapply(steps, date, FUN=sum)))
 ```
 
 ![plot of chunk unnamed-chunk-8](figure/unnamed-chunk-8-1.png) 
-### FIX: labels
-
 Mean of sums of steps taken per day 
 
 ```r

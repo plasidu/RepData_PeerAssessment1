@@ -18,8 +18,6 @@ Histogram showing frequencies of sums of steps taken per day
 ```{r}
 hist(with(data, tapply(steps, date, FUN=sum)))
 ```
-### FIX: labels
-
 Mean of sums of steps taken per day 
 ```{r}
 mean(with(data, tapply(steps, date, FUN=sum)), na.rm=T)
@@ -53,8 +51,6 @@ Histogram showing frequencies of sums of steps taken per day after substituting 
 ```{r}
 hist(with(datb, tapply(steps, date, FUN=sum)))
 ```
-### FIX: labels
-
 Mean of sums of steps taken per day 
 ```{r}
 mean(with(datb, tapply(steps, date, FUN=sum)))
